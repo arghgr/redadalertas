@@ -1,0 +1,12 @@
+{
+  "RaidInfo": {
+    "time": "Time!",
+    "loc": "Location!",
+    "type": "Type!",
+    "desc": "Description ! ",
+    "ver": "Verified !!!"
+  },
+  "Dashboard": {
+    "title": "Raids Dashboard!"
+  }
+}
