@@ -7,13 +7,13 @@ const initialState = {
 export default function errorsReducer(state = initialState, action) {
   switch (action.type) {
     case SET_EVENTS_ERROR:
-      return { ...state, event: action.payload.error };
+      return { ...state, event: action.payload };
     default:
       return state;
   }
 }
 
-const getEventsError = error => {
+export const setEventsError = error => {
   return {
     type: SET_EVENTS_ERROR,
     payload: { error }
